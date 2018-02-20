@@ -1,0 +1,6 @@
+@charset= "utf-8";
+
+p {   /* para configurar todo o texto p*/
+	text-align: justify;;
+	text-indent: 50px;
+}
