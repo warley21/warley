@@ -1,7 +1,14 @@
 @charset= "utf-8";
+/*fonte do titulo, baixado no goolge fonts*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+@font-face{
+	font-family: 'FonteLogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 
 p {   /* para configurar todo o texto p*/
-	text-align: justify;;
+	text-align: justify;
 	text-indent: 50px;
 }
 body{
@@ -18,7 +25,7 @@ div#interface{  /*o auto serve para calcular automaticamente as distancias que r
 
 img#icone{
 	position: absolute;
-	top: 100px;
+	top: 110px;
 	left: 900px;
 }
 
@@ -87,4 +94,43 @@ nav#menu a{
 
 nav#menu a:hover{
 	color: #ffffff;
+}
+
+header#cabecalho{  /*para mexer na imagem glass*/
+	border-bottom: 1px #606060 solid;
+	height: 170px;
+	background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px; /*para mexer na imagem glass e ele so anda para direita e para baixo*/	
+}
+
+header#cabecalho h1{ /*mexer no cabeçalho nome:google glass*/
+	font-family: Arial, sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+header#cabecalho h2{
+	font-family: Titillium Web, sans-serif;
+	font-size: 15pt;
+	color: #888888;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+section#corpo{
+	display: block;
+	width: 600px;
+	float: left;
+	border-right: 1px solid #606060;
+	padding-right: 15px;
+}
+aside#lateral{
+	display: block;
+	width: 370px;
+	float: right;
+}
+footer#rodape{
+	clear: both;
+	border-top: 1px solid #606060;
+	text-align: center;
 }
