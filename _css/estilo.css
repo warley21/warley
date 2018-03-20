@@ -12,6 +12,7 @@ p {   /* para configurar todo o texto p*/
 	text-indent: 50px;
 }
 body{
+	font-family: Arial, sans-serif;
 	background-color: #dddddd;
 }
 
@@ -110,6 +111,7 @@ header#cabecalho h1{ /*mexer no cabeçalho nome:google glass*/
 	margin-top: 40px;
 	margin-bottom: 10px;
 }
+
 header#cabecalho h2{
 	font-family: Titillium Web, sans-serif;
 	font-size: 15pt;
@@ -117,20 +119,115 @@ header#cabecalho h2{
 	margin-bottom: 0px;
 	margin-top: 0px;
 }
+
 section#corpo{
 	display: block;
-	width: 600px;
+	width: 590px;
 	float: left;
 	border-right: 1px solid #606060;
 	padding-right: 15px;
 }
+
 aside#lateral{
 	display: block;
 	width: 370px;
 	float: right;
+	padding: 10px;
+	margin-top: 10px
+	box-shadow: 2px 2px 2px rgba (0,0,0,0.5);
+	background-color: #dddddd;
+}
+
+aside#lateral h1{
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-top: 0px;
+}
+
+aside#lateral h2{
+	background-color: #606060;
+	font-size: 12pt;
+	color: #ffffff;
+	padding: 5px;
 }
 footer#rodape{
 	clear: both;
 	border-top: 1px solid #606060;
 	text-align: center;
+}
+
+table#tabelaSpec{
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+table#tabelaSpec td{
+	border: 1px solid #606060;
+	padding: 10px;
+	text-align: center;
+}
+
+table#tabelaSpec td.ce{
+	color: #ffffff;
+	background-color: #606060;
+	text-align: right;
+	vertical-align: top;font-weight: bold;
+}
+
+table#tabelaSpec td.cd{
+	background-color: #cecece;
+	text-align: left;
+	vertical-align: middle;
+}
+
+table#tabelaSpec caption{
+	color: #888888;
+	font-size: 15pt;
+	font-weight: bolder;
+}
+
+table#tabelaSpec caption span{
+	display: block;
+	float: right;
+	color: #000000;
+	font-size: 10pt;
+	margin-top: 10px;
+}
+
+article#noticia-principal h2{
+	font-size: 12pt;
+	color: #606060;
+	background-color: #dddddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1{
+	font-family: 'FonteLogo' sans-serif;
+	font-size: 20pt;
+	color: #606060;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+header#cabecalho-artigo h2{
+	font-size: 13pt;
+	color: #cecece;
+	background-color: #ffffff;
+	margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+	font-size: 12pt;
+	color: #606060;
+
+}
+
+header#cabecalho-artigo h3.direita{
+	font-size: 10pt;
+	text-align: right;
 }
